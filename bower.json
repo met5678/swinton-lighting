@@ -1,0 +1,21 @@
+{
+  "name": "living-room-console",
+  "version": "0.0.0",
+  "authors": [
+    "met5678 <andrew@luminal.io>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "processing": "~1.4.8",
+    "jquery": "~2.1.3",
+    "bootswatch-dist": "3.3.0-cyborg",
+    "angular": "~1.3.8"
+  }
+}

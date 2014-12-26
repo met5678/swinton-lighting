@@ -1,0 +1,10 @@
+{
+  "name": "Tilda",
+  "version": "0.0.0",
+  "main": "index.html",
+  "window": {
+    "height":1000,
+    "width":400,
+    "toolbar": true
+  }
+}
