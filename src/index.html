@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="tilda">
 <head>
 	<meta charset-="utf-8">
 	<title>Tilda</title>
@@ -10,13 +10,19 @@
 
 	<!--bower:js-->
 	<script src="bower_components/jquery/dist/jquery.js"></script>
-	<script src="bower_components/processing/processing.js"></script>
 	<script src="bower_components/bootswatch-dist/js/bootstrap.js"></script>
 	<script src="bower_components/angular/angular.js"></script>
 	<!--endbower-->
+
+	<script src="js/master-controller.js"></script>
+	<script src="js/controllers.js"></script>
 </head>
-<body>
-  <p>Nothing here3 {{'yet' + '!'}}</p>
+<body ng-controller="EffectSelectCtrl">
+	<canvas height="468" width="100" id="fullPreview"></canvas>
+
+	<ul>
+		<li ng-repeat="effect in effects">{{effect.name}}</li>
+	</ul>
 
 	<script src="http://localhost:1337/livereload.js"></script>
 </body>

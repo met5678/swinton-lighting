@@ -1,7 +1,7 @@
 #include <OctoWS2811.h>
 
 // OctoWS2811 settings
-const int ledsPerStrip = 234; // change for your setup
+const int ledsPerStrip = 270; // change for your setup
 const byte numStrips = 4; // change for your setup
 const int numLEDs = ledsPerStrip*numStrips;
 const int halfLEDs = numLEDs/2;
